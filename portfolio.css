@@ -1,101 +1,166 @@
-body {
-    background-image: url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-position: center center;
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+/*Background image*/
+
+.bgimg-1 {
+    background-image: url("images/treebackground2.jpg");
+    height: 75%;
+    position: relative;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
-}
-
-h1 {
-    text-align: center;
-    font-size: 300%;
-    padding-top: 3em;
-}
-
-h2 {
-    text-align: center;
-    font-size: 190%;
-    padding-bottom: 15%;
-}
-
-h3 {
-    text-align: center;
-    font-size: 185%;
-    padding-top: 2%;
-}
-
-#icons {
-    text-align: center;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
 }
 
 
-/* Add a black background color to the top navigation */
+/* top navigation */
 
 .topnav {
     overflow: hidden;
     padding-top: 2em;
-    padding-left: 36em;
+    padding-left: 39em;
 }
 
 
-/* Style the links inside the navigation bar */
+/*Styling nav links*/
 
 .topnav a {
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding-right: 25px;
     text-decoration: none;
     font-size: 20px;
     display: inline;
 }
 
 
-/* Change the color of links on hover */
+/* Hover color orange */
 
-.topnav a:hover {
-    background-color: rgb(88, 141, 108);
+.topnav a.hover:hover {
+    color: #ff7400;
 }
 
 
-/* Add a color to the active/current link */
+/*Clicked link color green*/
 
-.topnav a.active {
-    color: black;
+.topnav a.hover:visited {
+    color: green;
 }
+
+
+/*logo on background header*/
+
+img.image {
+    padding-left: 35%;
+}
+
+
+/*First section tagline*/
+
+.first h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    font-size: 350%;
+    word-spacing: .8em;
+    padding-bottom: 2em;
+    padding-top: .8em;
+}
+
+
+/*Second section (about me)*/
+
+.second {
+    background-color: #889891;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*Second section aboutme h1 font*/
+
+.second h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 400%;
+    color: #565C64;
+    font-weight: bold;
+    word-spacing: .3em;
+    padding-top: 1.3em;
+    padding-bottom: .5em;
+}
+
+
+/*Second section aboutme h2 font*/
+
+.second h2 {
+    text-align: center;
+    font-family: 'Gotu', sans-serif;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-bottom: 1em;
+    font-size: 200%;
+    line-height: 1.6em;
+    color: #F6F2E9;
+}
+
+
+/*family photo in aboutme section*/
+
+img.family {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+
+/*Third portfolio section*/
+
+.third {
+    padding-bottom: 4em;
+}
+
+.third h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    word-spacing: .3em;
+    font-size: 300%;
+    color: #ff7400;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.row {
+    padding-left: 10em;
+    text-align: center;
+}
+
+
+/*Fourth contactMe section*/
+
+.fourth {
+    padding: 20px;
+    background-color: #F6F2E9;
+}
+
+.fourth h1 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 300%;
+    color: #616D73;
+    padding-top: .8em;
+    padding-bottom: .8em;
+}
+
+
+/* Add a color to the active/current link w3school css*/
 
 input[type=text],
 select,
@@ -118,10 +183,17 @@ textarea {
 }
 
 
+/*Change placeholder form text color to orange*/
+
+::placeholder {
+    color: orange;
+}
+
+
 /* Style the submit button with a specific background color etc */
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #ff7400;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -133,7 +205,7 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff7400;
 }
 
 
@@ -144,11 +216,19 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
+    border: 4px;
+    border-style: outset;
+    background-color: #889891;
+    padding: 20px;
+    padding-left: 10em;
+    padding-right: 10em;
     margin-bottom: 1%;
 }
 
-img {
-    padding-left: 40%;
+
+/*Style footer text*/
+
+.footer {
+    text-align: center;
+    font-family: cursive;
 }
