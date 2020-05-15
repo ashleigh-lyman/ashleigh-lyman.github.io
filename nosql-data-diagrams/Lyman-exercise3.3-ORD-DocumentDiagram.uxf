@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>700</y>
+      <w>320</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Author
+--
+{
+"author_first_name": "Ashleigh",
+"author_last_name": "Lyman",
+"author_phone": "012-345-6789",
+"author_email": "ashleighlyman@gmail.com"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>390</y>
+      <w>260</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Book
+--
+{
+"book_isbn": "1234-56-789",
+"book_name": "My Book",
+"book_price": 24.99
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>390</y>
+      <w>300</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Publisher
+--
+{
+"publisher_name": "John Smith",
+"publisher_code": "1234",
+"publisher_address": "Lincoln, NE"
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>440</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1*</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>520</y>
+      <w>40</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=1*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>520</y>
+      <w>40</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=1*</panel_attributes>
+    <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>30</x>
+      <y>70</y>
+      <w>550</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Ashleigh Lyman    05/13/2020      NoSQL- Assignment 3.3 Document Diagram</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

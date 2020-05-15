@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>400</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Author
+--
+author_first_name
+author_last_name
+author_phone
+author_email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>400</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Book
+--
+book_isbn
+book_name
+book_price</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>400</y>
+      <w>230</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Publisher
+--
+publisher_name
+publisher_code
+publisher_address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>440</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1.*
+m2=1.1
+</panel_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>440</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1.*
+m2=1.1
+</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>60</x>
+      <y>40</y>
+      <w>370</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Ashleigh Lyman   05/13/2020     NoSQL Assignment 3.3
+
+1. A PUBLISHER may publish many BOOKS
+2. A BOOK can have one PUBLISHER
+3. A BOOK may have many AUTHORS
+4. A AUTHOR may write many BOOKS
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
