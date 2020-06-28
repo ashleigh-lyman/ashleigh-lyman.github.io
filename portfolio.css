@@ -125,6 +125,7 @@ img.family {
 
 .third {
     padding-bottom: 4em;
+    margin-bottom: 5em;
 }
 
 .third h1 {
@@ -138,7 +139,8 @@ img.family {
 }
 
 .row {
-    padding-left: 10em;
+    padding-left: 1em;
+    padding-right: .5em;
     text-align: center;
 }
 
@@ -148,6 +150,7 @@ img.family {
 .fourth {
     padding: 20px;
     background-color: #F6F2E9;
+    margin-top: 20px;
 }
 
 .fourth h1 {
